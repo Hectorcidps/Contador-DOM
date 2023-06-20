@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Styles/contador.css">
+    <title>Contador y Temporizador</title>
+</head>
+<body>
+
+    
+    <div class="container">
+        <h1>Contador</h1>
+        <div class="'btn-contador">
+        <p id="contador">0</p>
+            <button class="btn-contador" id="btn-suma">
+                +
+            </button>
+            <button class="btn-contador" id="btn-resta">
+                -
+            </button>
+        </div>
+    </div>
+
+    <div>
+        <h1>Temporizador</h1>
+        <div class="contenedor" id="temporizador">00:00</div>
+        <label for="minutos"> Minutos: </label>
+        <input type="number" id="minutos" placeholder="ingresa el tiempo en minutos" >
+        <button onclick="inicioTiempo ()">Iniciar</button>  
+    </div>
+
+
+
+    <script src="./Scripts/contador.js"></script>   
+</body>
+</html>
